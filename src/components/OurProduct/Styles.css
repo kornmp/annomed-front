@@ -1,0 +1,160 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../asset/font/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../asset/font/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../../asset/font/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: ruda-regular;
+    src: url(../../asset/font/Ruda-Regular.woff);
+}
+@font-face {
+    font-family: ruda-medium;
+    src: url(../../asset/font/Ruda-Medium.woff);
+}
+.ourProduct-bg {
+    background: url('../../asset/image/ourProduct-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.ourProduct-textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ourProduct-textbox h1 {
+    text-align: center;
+    font-family: ruda-medium;
+}
+.ourProduct-textbox p {
+    text-align: center;
+    font-family: ruda-medium;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.ourProduct-bar {
+    width: 70px;
+    padding: 20px;
+    padding-right: 50px;
+    background-color: #3BD57E;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.productBar-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 1rem; */
+}
+.productBar-card p {
+    font-family: ruda-medium;
+}
+.productBar-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.ourProduct-body {
+    display: flex;
+    flex-direction: row;
+}
+.ourPorduct-con {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-top: 50px;
+}
+.ourProduct-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.ourProduct-desc p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ruda-medium;
+    font-size: 20px;
+}
+.ourProduct-desc img {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.ourProduct-card {
+    flex-shrink: 0;
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    margin-left: 25px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.testimonial-textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-textbox h1 {
+    text-align: center;
+    font-family: ruda-medium;
+}
+.testimonial-textbox p {
+    text-align: center;
+    font-family: ruda-medium;
+    width: 500px;
+}
+.testimonial-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.testimonial-main {
+    border-radius: 20px;
+    padding: 8px;
+    box-shadow: 0 0.5em 0.5em -0.4em #494848;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.testimonial-card {
+    height: 280px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-image {
+    height: 80px;
+    width: 80px;
+}
+.testimonial-paragraph {
+    /* font-family: ruda-regular; */
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}

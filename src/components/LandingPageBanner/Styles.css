@@ -1,0 +1,140 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../asset/font/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../asset/font/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../../asset/font/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: ruda-regular;
+    src: url(../../asset/font/Ruda-Regular.woff);
+}
+@font-face {
+    font-family: ruda-medium;
+    src: url(../../asset/font/Ruda-Medium.woff);
+}
+.banner-container {
+    display: flex;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 410px) {
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.banner-bg {
+    background: url(../../asset/image/landingpage-banner.png) no-repeat;
+    background-size: cover ;
+    overflow: hidden;
+}
+.partner-logo {
+    background: #F4F8FF;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 530px) {
+    .partner-logo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 160px;
+    }
+}
+.banner-con {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.banner-input {
+    margin-top: 2rem;
+}
+.banner-text {
+    text-align: start;
+    margin-left: 72px;
+    width: 450px;
+}
+.banner-title {
+    color: #2FA06D;
+    font-family: ruda-medium;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.banner-dsc {
+    font-family: Verdana;
+    font-size: 18px;
+}
+.banner-btn {
+    background: #2FA06D;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Verdana;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+.banner-btn:hover {
+    border: 2px solid #2FA06D;
+    color: #2FA06D;
+    background: #ffffff;
+    text-decoration: none;
+}
+.banner-btn-icon {
+    margin-top: -2px;
+}
+.input-box {
+    background-color: #ffffff;
+    width: 290px;
+    height: 37px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+.banner-img  {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.bounce {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+}
+.input-btn {
+    border-radius: 8px;
+    height: 40px;
+    margin-left: -8px;
+    border: none;
+    background-color: #DAFCD9;
+    font-weight: bold;
+}
+.input-btn:hover {
+    border: solid 0.5px;
+    border-color: #111111;
+    color: #2FA06D;
+    background: #ffffff;
+    text-decoration: none;
+}
+.partner-logo {
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.partner-image {
+    height: 50px;
+}

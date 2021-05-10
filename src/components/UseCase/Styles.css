@@ -1,0 +1,205 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../asset/font/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../asset/font/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: ruda-regular;
+    src: url(../../asset/font/Ruda-Regular.woff);
+}
+@font-face {
+    font-family: ruda-medium;
+    src: url(../../asset/font/Ruda-Medium.woff);
+}
+@font-face {
+    font-family: lato-thin;
+    src: url(../../asset/font/Lato-Thin.woff);
+}
+@font-face {
+    font-family: lato-regular;
+    src: url(../../asset/font/Lato-Regular.woff);
+}
+.usecase-bg {
+    background-color: #F4F8FF;
+    background-size: cover ;
+}
+.main-usecase {
+    margin: 0 auto;
+}
+.usecase-space {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.usecase-container {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.usecase-image {
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+.usecase-image img {
+    width: 100px;
+    height: 100px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+.usecase-con {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    overflow-x: scroll;
+    padding-top: 25px;
+}
+.usecase-card {
+    flex-shrink: 0;
+    /* margin-left: 25px; */
+    overflow: hidden;
+}
+.usecase-desc  {
+    /* margin-left: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usecase-desc p {
+    font-family: lato-regular;
+    color: #0070C5;
+    font-size: 18px;
+}
+.usecase-detail  {
+    font-family: roboto-regular;
+    font-size: 12px;
+    width: 80px;
+    color: #111111;
+    /* margin-left: 25px; */
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.computer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.com-image {
+    margin-top: 20px;
+}
+.com-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+}
+.com-header {
+    font-family: ruda-medium;
+    font-size: 22px;
+}
+.com-desc {
+    font-size: 15px;
+    text-align: center;
+}
+.cost-bg {
+    background-color: #F4F8FF;
+    background-size: cover ;
+}
+.cost-container {
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.cost-con {
+    /* margin-left: 40px; */
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 20px;
+}
+.cost-card {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.cost-desc {
+    text-align: center;
+}
+.annomedchange-bg {
+    margin-top: 50px;
+}
+.annomedchange-textbefore {
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.annomedchange-textbefore h1 {
+    font-family: ruda-medium;
+    color: #BF0000;
+}
+.annomedchange-textafter {
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.annomedchange-textafter h1 {
+    font-family: ruda-medium;
+    color: #019D4C;
+}
+.annomedchange-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.annomedchange-con img {
+    height: 300px;
+    width: 400px;
+}
+.annomedchange-con p {
+    width: 500px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+.changearrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 40px;
+    margin-top: 20px;
+    border: solid 1px #ffffff;
+    background-color: #3BD57E;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../asset/font/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../asset/font/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../../asset/font/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: ruda-regular;
+    src: url(../../asset/font/Ruda-Regular.woff);
+}
+@font-face {
+    font-family: ruda-medium;
+    src: url(../../asset/font/Ruda-Medium.woff);
+}
+.howItWorks-bg {
+    /* height: 500px; */
+    background: url(../../asset/image/howitworks-bg.png) no-repeat;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.howItWork-textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.howItWork-textbox h1 {
+    text-align: center;
+    font-family: ruda-medium;
+}
+.howItWork-textbox p {
+    margin-top: -8px;
+    text-align: center;
+    font-family: ruda-medium;
+    width: 500px;
+}
+.howItWorks-body {
+    display: flex;
+    justify-content: space-between;
+}
+.howItWorks-bar {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-evenly;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+.howItWorks-on {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    background-color: #DDE7FE;
+    border: none;
+    box-shadow: 0 0.5em 0.5em -0.4em #494848;
+}
+.howItWorks-off {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 0.5em 0.5em -0.4em #494848;
+}
+.howItWorks-screen {
+    background-color: #E9F0FF;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.howItWorks-screen-header {
+    font-size: 22px;
+    font-family: ruda-medium;
+    margin-bottom: 5px;
+}
+.howItWork-screen-desc {
+    font-size: 14px;
+    font-family: ruda-medium;
+    margin-bottom: 12px;
+}

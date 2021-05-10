@@ -1,0 +1,110 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../asset/font/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../asset/font/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../../asset/font/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: ruda-regular;
+    src: url(../../asset/font/Ruda-Regular.woff);
+}
+@font-face {
+    font-family: ruda-medium;
+    src: url(../../asset/font/Ruda-Medium.woff);
+}
+.OurTeam-bg {
+    height: 620px;
+    background: url(../../asset/image/ourTeam-bg.png) no-repeat;
+    background-size: cover ;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.OurTeam-textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.OurTeam-textbox h1 {
+    text-align: center;
+    font-family: ruda-medium;
+}
+.OurTeam-textbox p {
+    text-align: center;
+    font-family: ruda-medium;
+    width: 400px;
+}
+.Ourteam-carousel {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 200px auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.ourTeam-card {
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #eeeeee;
+    padding: 30px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 300px;
+    transition: all 0.75s ease;
+    opacity: 0;
+    position: absolute;
+    transform: scale(1) translateX(50px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ourTeam-card h1 {
+    font-family: ruda-medium;
+    font-size: 26px;
+    margin: 0;
+}
+.ourTeam-card h4 {
+    font-family: ruda-regular;
+    font-size: 16px;
+    margin: 0;
+}
+.ourTeam-card p {
+    font-family: roboto-regular;
+}
+.ourTeam-card.active {
+    opacity: 1;
+    transform: scale(1.1) translateX(0);
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.ourTeam-card.next {
+    opacity: 1;
+    z-index: 0;
+}
+.ourTeam-card.prev {
+    transform: scale(1) translateX(-50px);
+    z-index: 1;
+    opacity: 1;
+    /* visibility: hidden; */
+}
+.OurTeam-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.OurTeam-card h1 {
+    text-align: center;
+}
+.OurTeam-card h4 {
+    text-align: center;
+}

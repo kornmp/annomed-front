@@ -1,0 +1,97 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../asset/font/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../asset/font/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(../../asset/font/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: ruda-regular;
+    src: url(../../asset/font/Ruda-Regular.woff);
+}
+@font-face {
+    font-family: ruda-medium;
+    src: url(../../asset/font/Ruda-Medium.woff);
+}
+@font-face {
+    font-family: lato-thin;
+    src: url(../../asset/font/Lato-Thin.woff);
+}
+@font-face {
+    font-family: lato-regular;
+    src: url(../../asset/font/Lato-Regular.woff);
+}
+@font-face {
+    font-family: lato-bold;
+    src: url(../../asset/font/Lato-Bold.woff);
+}
+.contactUs-bg {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.contactUs-textbox {
+    display: flex;
+    flex-direction: column;
+}
+.contactUs-textbox h1 {
+    font-family: lato-bold;
+}
+.contactUs-textbox p {
+    font-family: ruda-medium;
+    width: 400px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
+.contact img {
+    margin-right: 10px;
+}
+.contactUs-form img {
+    display: flex;
+    align-items: center;
+}
+.socialmedia img {
+    margin-right: 10px;
+}
+.contactUs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.5em 0.5em -0.4em #494848;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+}
+.contactUs-form {
+    display: flex;
+    flex-direction: column;
+}
+.contactUs-form p {
+    font-size: 10px;
+    font-family: lato-regular;
+}
+.contactUs-input {
+    border-radius: 5px;
+    border: solid 1px #e7e4e4;
+    width: max-content;
+    margin-bottom: 5px;
+    width: 250px;
+
+}
+.contactUs-submit {
+    justify-content: flex-end;
+    margin-top: 9px;
+    background-color: #1F5390;
+    border: solid 1px;
+    padding: 8px;
+    color: #ffffff;
+    width: 150px;
+    border-radius: 8px;
+}
