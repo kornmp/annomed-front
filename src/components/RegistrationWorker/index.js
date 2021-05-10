@@ -52,7 +52,6 @@ const Registration = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('test', workerData)
 
     //   dispatch(signup(workerData))
       history.push('/LoginWorker')
