@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Styles.css';
-import { useDispatch, useSelector } from 'react-redux';
+// import { useDispatch, useSelector } from 'react-redux';
 // import { getProjects } from '../../actions/projects.js';
 import { CircularProgress } from '@material-ui/core';
 
@@ -9,7 +9,7 @@ function ProjectShow() {
     const [currentPage, setCurrentPage] = useState(1);
 
     // const dispatch = useDispatch();
-    const projects = useSelector((state) => state.projects);
+    // const projects = useSelector((state) => state.projects);
 
     // useEffect(() => {
     //     dispatch(getProjects());
@@ -31,7 +31,7 @@ function ProjectShow() {
                 ))}
             </div>
             <div className="body-container">
-                {!projects.length ? <CircularProgress /> : (
+                {/* {!projects.length ? <CircularProgress /> : (
                     <div className="image-container">
                         {projects.map((value, index) => (
                             <div key={value._id}>
@@ -51,7 +51,7 @@ function ProjectShow() {
                             </div>
                         ))}
                     </div>
-                )}
+                )} */}
                 <div className="page-container">
                     {page.map((value, index) => (
                         <div key={index}>
