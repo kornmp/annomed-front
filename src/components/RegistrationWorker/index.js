@@ -3,8 +3,8 @@ import DatePicker from "react-datepicker";
 import "./Styles.css";
 import "react-datepicker/dist/react-datepicker.css";
 import FileBase from 'react-file-base64';
-import { useDispatch } from 'react-redux';
-import { signup } from '../../actions/worker';
+// import { useDispatch } from 'react-redux';
+// import { signup } from '../../actions/worker';
 import { useHistory } from "react-router-dom";
 import AnnomedLogo from "../../asset/image/homepagebanner-logo.png";
 import iconName from "../../asset/image/icon-name.png";
@@ -48,13 +48,13 @@ const Registration = () => {
     }))
   };
 
-  const dispatch = useDispatch();
+//   const dispatch = useDispatch();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log('test', workerData)
 
-      dispatch(signup(workerData))
+    //   dispatch(signup(workerData))
       history.push('/LoginWorker')
   };
  

@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 import './Styles.css';
-import { signin } from '../../actions/worker';
+// import { signin } from '../../actions/worker';
 import { useHistory } from "react-router-dom";
 
 function LoginWorker() {
     const [login, setLogin] = useState({ email: '', password: '' });
 
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
     const history = useHistory();
 
     const handleChange = e => {
@@ -21,7 +21,7 @@ function LoginWorker() {
     const handleSubmit = async (e) => {
       e.preventDefault();
   
-        dispatch(signin(login));
+        // dispatch(signin(login));
         history.push('/ClientPlatform')
     };
 

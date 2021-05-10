@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import './Styles.css'
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 import FileBase from 'react-file-base64';
 
-import { createProject } from '../../actions/projects.js';
+// import { createProject } from '../../actions/projects.js';
 
 function ProjectCreate() {
     const [addProject, setAddProject] = useState({ projectName: '', labelType: '', dataType: '', labelTag: '', labelInstruction: '', selectedFile: '' });
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
     const handleChange = e => {
         const { name, value } = e.target;
@@ -25,7 +25,7 @@ function ProjectCreate() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        dispatch(createProject(addProject));
+        // dispatch(createProject(addProject));
         clear();
     };
 

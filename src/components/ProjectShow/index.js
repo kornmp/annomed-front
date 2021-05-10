@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import './Styles.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { getProjects } from '../../actions/projects.js';
+// import { getProjects } from '../../actions/projects.js';
 import { CircularProgress } from '@material-ui/core';
 
 function ProjectShow() {
     const headerTab = [{id:1, name:'All Projects'}];
     const [currentPage, setCurrentPage] = useState(1);
 
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
     const projects = useSelector((state) => state.projects);
 
-    useEffect(() => {
-        dispatch(getProjects());
-    }, [dispatch])
+    // useEffect(() => {
+    //     dispatch(getProjects());
+    // }, [dispatch])
 
     var pagenumber = Math.ceil(projects.length/12);
     
