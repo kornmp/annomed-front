@@ -118,3 +118,5 @@ const ClientPlatform = () => {
     </div>
   );
 }
+
+export default ClientPlatform;
