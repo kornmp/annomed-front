@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Styles.css";
 import "react-datepicker/dist/react-datepicker.css";
-// import { useDispatch } from 'react-redux';
-// import { signup } from '../../actions/client';
-// import { useHistory } from "react-router-dom";
+import { useDispatch } from 'react-redux';
+import { signup } from '../../actions/client';
+import { useHistory } from "react-router-dom";
 import AnnomedLogo from "../../asset/image/homepagebanner-logo.png";
 import iconName from "../../asset/image/icon-name.png";
 import iconEmail from "../../asset/image/icon-email.png";
@@ -19,7 +19,7 @@ const Registration = () => {
       password: '',
     })
   
-    // const history = useHistory();
+    const history = useHistory();
   
     const handleChange = e => {
       const { name, value } = e.target;
@@ -29,14 +29,14 @@ const Registration = () => {
       }))
     };
   
-    // const dispatch = useDispatch();
+    const dispatch = useDispatch();
   
-    // const handleSubmit = async (e) => {
-    //   e.preventDefault();
+    const handleSubmit = async (e) => {
+      e.preventDefault();
   
-    //     // dispatch(signup(clientData))
-    //     history.push('/LoginClient')
-    // };
+        dispatch(signup(clientData))
+        history.push('/LoginClient')
+    };
    
     return (
       <div className="register-main">
