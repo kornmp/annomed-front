@@ -34,8 +34,8 @@ const Registration = () => {
     const handleSubmit = async (e) => {
       e.preventDefault();
   
-        dispatch(signup(clientData))
-        history.push('/LoginClient')
+        dispatch(signup(clientData));
+        // history.push('/LoginClient')
     };
    
     return (
