@@ -4,7 +4,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import Home from './pages/Home';
 import RegistrationClient from './pages/RegistrationClient';
-import LoginClient from './pages/LoginClient';
+// import LoginClient from './pages/LoginClient';
 
 const App = () => {
 
@@ -13,7 +13,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/RegistrationClient" component={RegistrationClient} />
-          <Route path="/LoginClient" component={LoginClient} />
+          {/* <Route path="/LoginClient" component={LoginClient} /> */}
         </Switch>
       </Router>
   );
