@@ -34,10 +34,10 @@ const Navbar = () => {
                 <div className="navbar-con">
                     <ul className={click ? "menu active" : "menu"}>
                         <Button className="navbarMenu-link-btn">
-                            <a href="/LoginWorker">Log in</a>
+                            <a href="/LoginClient">Log in</a>
                         </Button>
                         <Button className="navbarMenu-link-btn">
-                            <a href="/RegistrationWorker">Sign Up</a>
+                            <a href="/RegistrationClient">Sign Up</a>
                         </Button>
                     </ul>
                     <div className="moblie-menu" onClick={handleClick}>
