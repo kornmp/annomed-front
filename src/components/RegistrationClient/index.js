@@ -12,11 +12,11 @@ import iconSpecialist from "../../asset/image/icon-specialist.png";
 
 const Registration = () => {
     const [clientData, setClientData] = useState({ 
-      fullName: '', 
-      company: '', 
-      phoneNumber: '', 
+      name: '', 
       email: '',
-      password: '',
+      password: '', 
+      phoneNumber: '', 
+      company: '',
     })
   
     const history = useHistory();
@@ -62,7 +62,7 @@ const Registration = () => {
                           <i className="icon">
                               <img alt="" src={iconName}/>
                           </i>
-                          <input type="text" name="fullName" className="form-input" placeholder="Full Name" onChange={handleChange} />
+                          <input type="text" name="name" className="form-input" placeholder="Full Name" onChange={handleChange} />
                       </div>
                       <div className="form-control">
                           <i className="icon">
