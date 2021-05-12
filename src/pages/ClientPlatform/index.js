@@ -9,8 +9,12 @@ import ActDashboardIcon from '../../asset/image/ActDashboardIcon.png';
 import IntegrationIcon from '../../asset/image/IntegrationIcon.png';
 import ProjIcon from '../../asset/image/ProjIcon.png';
 import ActProjIcon from '../../asset/image/ActProjIcon.png';
-// import GearIcon from '../../asset/image/GearIcon.png';
-// import Account from '../../asset/image/AccountIcon.png';
+import GearIcon from '../../asset/image/GearIcon.png';
+import AccountIcon from '../../asset/image/AccountIcon.png';
+import DocIcon from '../../asset/image/DocIcon.png';
+import supportIcon from '../../asset/image/supportIcon.png';
+import { VscBellDot } from "react-icons/vsc";
+import { Button } from 'react-bootstrap';
 import './Styles.css';
 
 
@@ -24,7 +28,8 @@ const ClientPlatform = () => {
       <div className="sidebar">
         <img src={Everlogo} alt="" className="everlogo" width="132" height="48"/>
         <div className="sidebar-container">
-            {click === "Dashboard" ? (
+          <div className="sidebar-upper">
+          {click === "Dashboard" ? (
               <div className="sidebar-active">
                 <div className="inner-sidebar">
                   <img src={ActDashboardIcon} alt="" className="image-active"/>
@@ -102,17 +107,49 @@ const ClientPlatform = () => {
                   <p>Browse Datasets</p>
               </div>
             )}
+          </div>
+          <div className="sidebar-lower">
+            <div className="sidebar-inactive" onClick="">
+              <img src={supportIcon} alt="" className="image-inactive"/>
+              <p>Support</p>
+            </div>
+            <div className="sidebar-inactive" onClick="">
+              <img src={DocIcon} alt="" className="image-inactive"/>
+              <p>Documentation</p>
+            </div>
+            <div className="sidebar-inactive" onClick="">
+              <img src={AccountIcon} alt="" className="image-inactive"/>
+              <p>My Account</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="platform-main">
-        {/* {click === "Dashboard" ? (
-          <ProjectDashBoard />
-        ) : 
-        click === "CreateProj" ? (
-          <ProjectCreate />
-        ) : (
-          <ProjectShow />
-        )} */}
+        <div className="platform-navbar sticky">
+              <p>Welcome Back Kumar!</p>
+              <form>
+                <input className="contactUs-input" type="text" name="name" placeholder="" />
+              </form>
+              <div className="notice-bell" onClick="">
+                <VscBellDot />
+              </div>
+              <div className="option-gear" onClick="">
+                <img src={GearIcon} alt="" className=""/>
+              </div>
+              <Button className="navbar-btn">
+                <a href="/">Log out</a>
+              </Button>
+        </div>
+        <div className="platform-body">
+          {/* {click === "Dashboard" ? (
+            <ProjectDashBoard />
+          ) : 
+          click === "CreateProj" ? (
+            <ProjectCreate />
+          ) : (
+            <ProjectShow />
+          )} */}
+        </div>
       </div>
       </div>
     </div>

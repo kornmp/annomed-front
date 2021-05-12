@@ -22,7 +22,7 @@ function LoginClient() {
       e.preventDefault();
   
         dispatch(signin(login));
-        history.push('/ClientPlatform')
+        // history.push('/ClientPlatform')
         
     };
 

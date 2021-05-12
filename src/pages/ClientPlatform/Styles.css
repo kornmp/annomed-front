@@ -81,3 +81,46 @@ html, body, #root, .App {
     margin-left: 50px;
     margin-right: 50px;
 }
+.navbar-btn a {
+    color: #111111;
+    text-decoration: none;
+}
+.navbar-btn a:hover {
+    color: #111111;
+    text-decoration: none;
+}
+.navbar-btn {
+    background-color: #019D4C;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25rem;
+    border: none;
+    transition: all 0.25s ease;
+    position: relative;
+    margin-right: 10px;
+}
+.navbar-btn:hover, .navbar-btn:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #494848;
+    transform: translate(-0.25em, -0.25em);
+}
+.navbar-btn a {
+    font-family: roboto-bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+
+    font-size: 14px;
+}
+.navbar-btn a:hover, .navbar-btn a:focus {
+    text-decoration: none;
+    color: white;
+}
+.sticky { 
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    transition: 0 0.5s;
+}
