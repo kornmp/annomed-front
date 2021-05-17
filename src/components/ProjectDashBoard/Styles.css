@@ -1,0 +1,142 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../asset/font/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../asset/font/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: ruda-regular;
+    src: url(../../asset/font/Ruda-Regular.woff);
+}
+@font-face {
+    font-family: ruda-medium;
+    src: url(../../asset/font/Ruda-Medium.woff);
+}
+@font-face {
+    font-family: lato-thin;
+    src: url(../../asset/font/Lato-Thin.woff);
+}
+@font-face {
+    font-family: lato-regular;
+    src: url(../../asset/font/Lato-Regular.woff);
+}
+@font-face {
+    font-family: lato-bold;
+    src: url(../../asset/font/Lato-Bold.woff);
+}
+.project-bg {
+    background-color: #F0F5F6;
+    margin: auto 0;
+}
+.project-main {
+    display: flex;
+    margin: 20px;
+}
+.taskgraph-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.project-headbar {
+    display: flex;
+    margin-left: 35px;
+}
+.header-btn p {
+    color: #111111;
+    text-decoration: none;
+}
+.header-btn p:hover {
+    color: #111111;
+    text-decoration: none;
+}
+.header-btn {
+    display: flex;
+    align-items: center;
+    background-color: #37C2A1;
+    height: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.25s ease;
+    position: relative;
+    margin-right: 10px;
+}
+.header-btn:hover, .navbar-btn:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #494848;
+    transform: translate(-0.25em, -0.25em);
+}
+.header-btn p {
+    font-family: roboto-bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 14px;
+}
+.project-sidebar {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.sidebar-header p {
+    font-family: lato-bold;
+    font-size: 18px;
+}
+.sidebar-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+.sidebar-con img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+.sidebar-desc {
+    width: 110px;
+}
+.sidebox-header {
+    font-family: lato-bold;
+    color: black;
+    font-size: 12px;
+}
+.sidebox-desc {
+    font-family: lato-regular;
+    color: #B1B1B1;
+    font-size: 10px;
+}
+.audit-summary {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.audit-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.audit-number {
+    font-size: 35px;
+}

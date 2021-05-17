@@ -35,7 +35,7 @@ const Registration = () => {
       e.preventDefault();
   
         dispatch(signup(clientData));
-        // history.push('/LoginClient')
+        history.push('/LoginClient')
     };
    
     return (

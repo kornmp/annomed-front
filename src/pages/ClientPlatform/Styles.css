@@ -32,15 +32,23 @@ html, body, #root, .App {
     display: flex;
 }
 .sidebar {
-    width: 300px;
+    width: 250px;
     height: 660px;
     box-shadow: 0.5em 0 0.5em -0.4em #494848;
 }
 .sidebar-container {
-    width: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-lower {
+    margin-top: 95px;
 }
 .everlogo {
     margin: 25px;
+}
+.sidebar-inactive {
+    color: #B1B1B1;
 }
 .sidebar-active {
     display: flex;
@@ -56,6 +64,11 @@ html, body, #root, .App {
     justify-content: center;
     margin-left: 30px;
 }
+.inner-inactive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .image-active {
     width: 20px;
     height: 20px;
@@ -63,6 +76,10 @@ html, body, #root, .App {
 .image-inactive {
     width: 20px;
     height: 20px; 
+}
+.image-mini {
+    width: 15px;
+    height: 15px; 
 }
 .sidebar-inactive {
     display: flex;
@@ -78,8 +95,9 @@ html, body, #root, .App {
 }
 .platform-main {
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 100%;
+    background-color: #F0F5F6;
+    flex-direction: column;
 }
 .navbar-btn a {
     color: #111111;
@@ -90,11 +108,11 @@ html, body, #root, .App {
     text-decoration: none;
 }
 .navbar-btn {
-    background-color: #019D4C;
+    background-color: #37C2A1;
     height: 35px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 25rem;
+    border-radius: 10px;
     border: none;
     transition: all 0.25s ease;
     position: relative;
@@ -110,17 +128,40 @@ html, body, #root, .App {
     justify-content: center;
     align-content: center;
     color: white;
-
     font-size: 14px;
 }
 .navbar-btn a:hover, .navbar-btn a:focus {
     text-decoration: none;
     color: white;
 }
-.sticky { 
-    position: -webkit-sticky; /* Safari */
+/* .sticky { 
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     width: 100%;
     transition: 0 0.5s;
+} */
+.platform-navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-right: 20px;
+}
+.platform-navmenu {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.platform-greet {
+    font-family: lato-regular;
+    margin-left: 30px;
+}
+.platform-search {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.navmemu-content {
+    margin-right: 20px;
 }
